@@ -1,0 +1,6 @@
+inf = input("digite alguma coisa ")
+print('o tipo primitivo desse valor é',type(inf))
+print('só tem espaços?',inf.isspace())
+print('É um número?',inf.isnumeric())
+print('É alfabético?',inf.isalpha())
+print('É alfanumérico?',inf.isalnum())
